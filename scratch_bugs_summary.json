@@ -1,0 +1,138 @@
+[
+  {
+    "id": "BUG-DOM-hashrate-free-note",
+    "severity": "HIGH",
+    "file": "script.js / index.html",
+    "element": "#hashrate-free-note",
+    "rootCause": "Element ID 'hashrate-free-note' is queried in script.js via getElementById but does not exist in index.html or admin.html",
+    "impact": "Can cause null pointer dereference crashes when accessing properties of null"
+  },
+  {
+    "id": "BUG-DOM-sparkline-hashes",
+    "severity": "HIGH",
+    "file": "script.js / index.html",
+    "element": "#sparkline-hashes",
+    "rootCause": "Element ID 'sparkline-hashes' is queried in script.js via getElementById but does not exist in index.html or admin.html",
+    "impact": "Can cause null pointer dereference crashes when accessing properties of null"
+  },
+  {
+    "id": "BUG-DOM-sparkline-balance",
+    "severity": "HIGH",
+    "file": "script.js / index.html",
+    "element": "#sparkline-balance",
+    "rootCause": "Element ID 'sparkline-balance' is queried in script.js via getElementById but does not exist in index.html or admin.html",
+    "impact": "Can cause null pointer dereference crashes when accessing properties of null"
+  },
+  {
+    "id": "BUG-DOM-sparkline-contracts",
+    "severity": "HIGH",
+    "file": "script.js / index.html",
+    "element": "#sparkline-contracts",
+    "rootCause": "Element ID 'sparkline-contracts' is queried in script.js via getElementById but does not exist in index.html or admin.html",
+    "impact": "Can cause null pointer dereference crashes when accessing properties of null"
+  },
+  {
+    "id": "BUG-DOM-sparkline-output",
+    "severity": "HIGH",
+    "file": "script.js / index.html",
+    "element": "#sparkline-output",
+    "rootCause": "Element ID 'sparkline-output' is queried in script.js via getElementById but does not exist in index.html or admin.html",
+    "impact": "Can cause null pointer dereference crashes when accessing properties of null"
+  },
+  {
+    "id": "BUG-DOM-hero-start-mining-btn",
+    "severity": "HIGH",
+    "file": "script.js / index.html",
+    "element": "#hero-start-mining-btn",
+    "rootCause": "Element ID 'hero-start-mining-btn' is queried in script.js via getElementById but does not exist in index.html or admin.html",
+    "impact": "Can cause null pointer dereference crashes when accessing properties of null"
+  },
+  {
+    "id": "BUG-DOM-demo-banner",
+    "severity": "HIGH",
+    "file": "script.js / index.html",
+    "element": "#demo-banner",
+    "rootCause": "Element ID 'demo-banner' is queried in script.js via getElementById but does not exist in index.html or admin.html",
+    "impact": "Can cause null pointer dereference crashes when accessing properties of null"
+  },
+  {
+    "id": "BUG-DOM-infra-scada-temp",
+    "severity": "HIGH",
+    "file": "script.js / index.html",
+    "element": "#infra-scada-temp",
+    "rootCause": "Element ID 'infra-scada-temp' is queried in script.js via getElementById but does not exist in index.html or admin.html",
+    "impact": "Can cause null pointer dereference crashes when accessing properties of null"
+  },
+  {
+    "id": "BUG-DOM-infra-scada-power",
+    "severity": "HIGH",
+    "file": "script.js / index.html",
+    "element": "#infra-scada-power",
+    "rootCause": "Element ID 'infra-scada-power' is queried in script.js via getElementById but does not exist in index.html or admin.html",
+    "impact": "Can cause null pointer dereference crashes when accessing properties of null"
+  },
+  {
+    "id": "BUG-DOM-infra-scada-hash",
+    "severity": "HIGH",
+    "file": "script.js / index.html",
+    "element": "#infra-scada-hash",
+    "rootCause": "Element ID 'infra-scada-hash' is queried in script.js via getElementById but does not exist in index.html or admin.html",
+    "impact": "Can cause null pointer dereference crashes when accessing properties of null"
+  },
+  {
+    "id": "BUG-DOM-public-landing-view",
+    "severity": "HIGH",
+    "file": "script.js / index.html",
+    "element": "#public-landing-view",
+    "rootCause": "Element ID 'public-landing-view' is queried in script.js via getElementById but does not exist in index.html or admin.html",
+    "impact": "Can cause null pointer dereference crashes when accessing properties of null"
+  },
+  {
+    "id": "BUG-DOM-client-dashboard-view",
+    "severity": "HIGH",
+    "file": "script.js / index.html",
+    "element": "#client-dashboard-view",
+    "rootCause": "Element ID 'client-dashboard-view' is queried in script.js via getElementById but does not exist in index.html or admin.html",
+    "impact": "Can cause null pointer dereference crashes when accessing properties of null"
+  },
+  {
+    "id": "BUG-SEL-#transparency-payout-table tbody",
+    "severity": "MEDIUM",
+    "file": "script.js",
+    "element": "#transparency-payout-table tbody",
+    "rootCause": "querySelector('#transparency-payout-table tbody') target missing in HTML markup",
+    "impact": "Null reference error when manipulating element properties"
+  },
+  {
+    "id": "BUG-SEL-#deposit-modal .qr-icon",
+    "severity": "MEDIUM",
+    "file": "script.js",
+    "element": "#deposit-modal .qr-icon",
+    "rootCause": "querySelector('#deposit-modal .qr-icon') target missing in HTML markup",
+    "impact": "Null reference error when manipulating element properties"
+  },
+  {
+    "id": "BUG-SEL-#invitation-request-modal form",
+    "severity": "MEDIUM",
+    "file": "script.js",
+    "element": "#invitation-request-modal form",
+    "rootCause": "querySelector('#invitation-request-modal form') target missing in HTML markup",
+    "impact": "Null reference error when manipulating element properties"
+  },
+  {
+    "id": "BUG-SEL-#invitation-request-modal form",
+    "severity": "MEDIUM",
+    "file": "script.js",
+    "element": "#invitation-request-modal form",
+    "rootCause": "querySelector('#invitation-request-modal form') target missing in HTML markup",
+    "impact": "Null reference error when manipulating element properties"
+  },
+  {
+    "id": "BUG-ADMIN-FN-triggerClientRestriction",
+    "severity": "HIGH",
+    "file": "admin.html",
+    "element": "inline handler: triggerClientRestriction()",
+    "rootCause": "Function 'triggerClientRestriction' referenced in admin.html inline handler but never defined in any script file",
+    "impact": "Uncaught ReferenceError when user triggers action in admin panel"
+  }
+]
